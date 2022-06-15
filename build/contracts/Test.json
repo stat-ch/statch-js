@@ -1,0 +1,417 @@
+{
+  "contractName": "Test",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{},\"notice\":\"\\uc720\\uc800\\ub85c\\ubd80\\ud130 \\uc11c\\ube44\\uc2a4 \\ud65c\\uc131\\ud654\\ub97c \\uc81c\\uacf5 \\ubc1b\\uace0 \\uadf8\\uc5d0 \\ub530\\ub978 \\ud1a0\\ud070 \\ubcf4\\uc0c1\\uc744 \\uc9c0\\uae09\\ud55c\\ub2e4. \\uadf8\\ub807\\ub2e4\\uba74 \\ubcf4\\uc0c1\\uc740 \\ubb58 \\ud558\\uba74 \\ubc1b\\uc744 \\uc218 \\uc788\\uc744\\uae4c. \\ubc29\\uc744 \\uc81c\\uacf5\\ud574\\uc900\\ub2e4? \\uc544\\ub2c8\\ub2e4, \\ub9f5\\uc744 \\uc81c\\uacf5\\ud574\\uc900\\ub2e4. \\uc804\\uccb4\\uc801\\uc778 \\ub9f5 \\uadf8\\ub798\\ud53d \\uc774\\ubbf8\\uc9c0\\uc640 \\uadf8 \\ub9f5\\uc5d0 \\ubd80\\ud569\\ud558\\ub294 \\ucf5c\\ub77c\\uc774\\ub354(\\uc774\\ub3d9\\ubc29\\uc9c0 \\ub9c8\\uc2a4\\ud06c) \\ub450 \\uc7a5\\uc758 \\uc774\\ubbf8\\uc9c0 \\ud30c\\uc77c\\uc744 \\uc804\\ub2ec \\ubc1b\\uace0, ...\\ubb50, \\ub610 \\uc2a4\\ud06c\\ub9bd\\ud2b8\\uc640 NPC \\ub4f1\\ub3c4 \\ubc1b\\uc744 \\uc218 \\uc788\\uaca0\\uace0... \\uc989 \\ub9c8\\uce58 SecondLife, VRChat \\ub0b4\\uc758 \\uc720\\uc800 \\uba54\\uc774\\ub4dc \\ucee4\\uc2a4\\ud140 \\ub9f5\\uacfc\\ub3c4 \\uac19\\uc740 \\ud558\\ub098\\uc758 \\ucc3d\\uc791 \\ub9f5\\uc744 \\uc81c\\uacf5 \\ubc1b\\uc73c\\uba74 \\uadf8\\uc5d0 \\ub530\\ub77c ERC20 \\ud1a0\\ud070\\uc744 \\ubcf4\\uc0c1\\uc73c\\ub85c \\uc8fc\\uba74 \\uc88b\\uc744 \\uac83 \\uac19\\ub2e4. \\uc720\\uc800\\uac00 \\ubc29\\uc744 \\uc0dd\\uc131\\ud560 \\uc2dc\\uc5d0 \\ucc3d\\uc791 \\ub9f5\\ub4e4 \\uc911 \\ud558\\ub098\\ub97c \\ub9c8\\uc74c\\ub300\\ub85c \\uc120\\ud0dd\\ud560 \\uc218 \\uc788\\uac8c \\ud55c\\ub2e4. \\ub2a5\\ub825\\uc790\\ub4e4\\uc758 \\uc608\\uc220\\uc801\\uc778 \\uc791\\ud488\\ub4e4\\ub3c4 \\ubd84\\uba85 \\ub098\\uc62c \\uac83\\uc774\\uace0 \\ubcf4\\ub2e4 \\uc720\\uc800 \\ud480\\uc774 \\ud65c\\uc131\\ud654\\ub418\\uba70 \\uc785\\uc18c\\ubb38\\ub3c4 \\ud37c\\uc9c0\\uac8c \\ub420 \\uac83\\uc774\\ub2e4. (\\uc911\\uc559\\ud654\\ub41c \\uc11c\\ube44\\uc2a4 \\ud55c\\uacc4\\ub97c \\uadf9\\ubcf5\\ud560 \\uc218 \\uc788\\uc74c)\"}},\"settings\":{\"compilationTarget\":{\"/Users/just-do-halee/programs/projects/statch-js/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/just-do-halee/programs/projects/statch-js/contracts/Test.sol\":{\"keccak256\":\"0xf9f7912389f86db4faabdc07b5f3a4dd55db6ac8e6d773d84a4a22a61618377b\",\"urls\":[\"bzz-raw://5309d889c39317fb951dd799965b4c3034e87e66266a9ca3d11417860f8092e7\",\"dweb:/ipfs/QmS62m6XcwjnRExBXmXVxPvMf2dcSV3o65Y6Q2tNXqjLyT\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516101fc3803806101fc8339818101604052602081101561003357600080fd5b810190808051604051939291908464010000000082111561005357600080fd5b8382019150602082018581111561006957600080fd5b825186600182028301116401000000008211171561008657600080fd5b8083526020830192505050908051906020019080838360005b838110156100ba57808201518184015260208101905061009f565b50505050905090810190601f1680156100e75780820380516001836020036101000a031916815260200191505b50604052505050806000908051906020019061010492919061010b565b50506101b0565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061014c57805160ff191683800117855561017a565b8280016001018555821561017a579182015b8281111561017957825182559160200191906001019061015e565b5b509050610187919061018b565b5090565b6101ad91905b808211156101a9576000816000905550600101610191565b5090565b90565b603e806101be6000396000f3fe6080604052600080fdfea265627a7a723158207f96dd5d64d4e020551907827be56576ca522888c2ccfc5c67b1c3d53f6c56ca64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158207f96dd5d64d4e020551907827be56576ca522888c2ccfc5c67b1c3d53f6c56ca64736f6c63430005100032",
+  "sourceMap": "1527:108:1:-;;;1564:69;8:9:-1;5:2;;;30:1;27;20:12;5:2;1564:69:1;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1564:69:1;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;384:12;379:3;372:25;420:4;415:3;411:14;404:21;;0:432;;1564:69:1;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1564:69:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1621:5;1614:4;:12;;;;;;;;;;;;:::i;:::-;;1564:69;1527:108;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "1527:108:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.5.16;\n\n// ERC-20 토큰 정해진 유통량 최초 발행\n// 40%는 서버지갑에 전송, 운영비로 사용\n// 나머지는 컨트랙트 내에 보관,\n// 이더리움을 지급할 시 토큰을 받는 형식으로.\n// 이더리움과 토큰의 교환 비율은 언제든지\n// 서버지갑에 의해 조절이 가능하도록(유통량 조절 목적).\n\n// 서버쪽에서도\n// eco-system을 만들면 좋을 것 같다. (총 유통량 중 40% 보유하고 있으므로 이를 사용)\n/**\n\n    유저로부터 서비스 활성화를 제공 받고\n    그에 따른 토큰 보상을 지급한다.\n    그렇다면 보상은 뭘 하면 받을 수 있을까.\n    방을 제공해준다? 아니다,\n    맵을 제공해준다.\n    전체적인 맵 그래픽 이미지와 그 맵에 부합하는 콜라이더(이동방지 마스크)\n    두 장의 이미지 파일을 전달 받고,\n    ...뭐, 또 스크립트와 NPC 등도 받을 수 있겠고...\n    즉 마치 SecondLife, VRChat 내의 유저 메이드 커스텀 맵과도 같은\n    하나의 창작 맵을 제공 받으면 그에 따라 ERC20 토큰을 보상으로 주면 좋을 것 같다.\n    유저가 방을 생성할 시에\n    창작 맵들 중 하나를 마음대로 선택할 수 있게 한다.\n\n    능력자들의 예술적인 작품들도 분명 나올 것이고\n    보다 유저 풀이 활성화되며 입소문도 퍼지게 될 것이다.\n    (중앙화된 서비스 한계를 극복할 수 있음)\n\n */\n\ncontract Test {\n    string name;\n    constructor(string memory _name) public {\n        name = _name;\n    }\n}\n",
+  "sourcePath": "/Users/just-do-halee/programs/projects/statch-js/contracts/Test.sol",
+  "ast": {
+    "absolutePath": "/Users/just-do-halee/programs/projects/statch-js/contracts/Test.sol",
+    "exportedSymbols": {
+      "Test": [
+        47
+      ]
+    },
+    "id": 48,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "유저로부터 서비스 활성화를 제공 받고\n그에 따른 토큰 보상을 지급한다.\n그렇다면 보상은 뭘 하면 받을 수 있을까.\n방을 제공해준다? 아니다,\n맵을 제공해준다.\n전체적인 맵 그래픽 이미지와 그 맵에 부합하는 콜라이더(이동방지 마스크)\n두 장의 이미지 파일을 전달 받고,\n...뭐, 또 스크립트와 NPC 등도 받을 수 있겠고...\n즉 마치 SecondLife, VRChat 내의 유저 메이드 커스텀 맵과도 같은\n하나의 창작 맵을 제공 받으면 그에 따라 ERC20 토큰을 보상으로 주면 좋을 것 같다.\n유저가 방을 생성할 시에\n창작 맵들 중 하나를 마음대로 선택할 수 있게 한다.\n능력자들의 예술적인 작품들도 분명 나올 것이고\n보다 유저 풀이 활성화되며 입소문도 퍼지게 될 것이다.\n(중앙화된 서비스 한계를 극복할 수 있음)",
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Test",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "1547:11:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "1547:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 45,
+              "nodeType": "Block",
+              "src": "1604:29:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 43,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 41,
+                      "name": "name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 36,
+                      "src": "1614:4:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "_name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 38,
+                      "src": "1621:5:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "1614:12:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 44,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1614:12:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 46,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 39,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 38,
+                  "name": "_name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46,
+                  "src": "1576:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 37,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1576:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1575:21:1"
+            },
+            "returnParameters": {
+              "id": 40,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1604:0:1"
+            },
+            "scope": 47,
+            "src": "1564:69:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 48,
+        "src": "1527:108:1"
+      }
+    ],
+    "src": "32:1604:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/just-do-halee/programs/projects/statch-js/contracts/Test.sol",
+      "exportedSymbols": {
+        "Test": [
+          47
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": "유저로부터 서비스 활성화를 제공 받고\n그에 따른 토큰 보상을 지급한다.\n그렇다면 보상은 뭘 하면 받을 수 있을까.\n방을 제공해준다? 아니다,\n맵을 제공해준다.\n전체적인 맵 그래픽 이미지와 그 맵에 부합하는 콜라이더(이동방지 마스크)\n두 장의 이미지 파일을 전달 받고,\n...뭐, 또 스크립트와 NPC 등도 받을 수 있겠고...\n즉 마치 SecondLife, VRChat 내의 유저 메이드 커스텀 맵과도 같은\n하나의 창작 맵을 제공 받으면 그에 따라 ERC20 토큰을 보상으로 주면 좋을 것 같다.\n유저가 방을 생성할 시에\n창작 맵들 중 하나를 마음대로 선택할 수 있게 한다.\n능력자들의 예술적인 작품들도 분명 나올 것이고\n보다 유저 풀이 활성화되며 입소문도 퍼지게 될 것이다.\n(중앙화된 서비스 한계를 극복할 수 있음)",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            47
+          ],
+          "name": "Test",
+          "scope": 48
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 47,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 35,
+                "name": "ElementaryTypeName",
+                "src": "1547:6:1"
+              }
+            ],
+            "id": 36,
+            "name": "VariableDeclaration",
+            "src": "1547:11:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 47,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_name",
+                      "scope": 46,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 37,
+                        "name": "ElementaryTypeName",
+                        "src": "1576:6:1"
+                      }
+                    ],
+                    "id": 38,
+                    "name": "VariableDeclaration",
+                    "src": "1576:19:1"
+                  }
+                ],
+                "id": 39,
+                "name": "ParameterList",
+                "src": "1575:21:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 40,
+                "name": "ParameterList",
+                "src": "1604:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 36,
+                              "type": "string storage ref",
+                              "value": "name"
+                            },
+                            "id": 41,
+                            "name": "Identifier",
+                            "src": "1614:4:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 38,
+                              "type": "string memory",
+                              "value": "_name"
+                            },
+                            "id": 42,
+                            "name": "Identifier",
+                            "src": "1621:5:1"
+                          }
+                        ],
+                        "id": 43,
+                        "name": "Assignment",
+                        "src": "1614:12:1"
+                      }
+                    ],
+                    "id": 44,
+                    "name": "ExpressionStatement",
+                    "src": "1614:12:1"
+                  }
+                ],
+                "id": 45,
+                "name": "Block",
+                "src": "1604:29:1"
+              }
+            ],
+            "id": 46,
+            "name": "FunctionDefinition",
+            "src": "1564:69:1"
+          }
+        ],
+        "id": 47,
+        "name": "ContractDefinition",
+        "src": "1527:108:1"
+      }
+    ],
+    "id": 48,
+    "name": "SourceUnit",
+    "src": "32:1604:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1001": {
+      "events": {},
+      "links": {},
+      "address": "0xfe94C8792742e77A7Fd369878495a6519D51DC76",
+      "transactionHash": "0x4e41142898b759fa29fd72118d2af8011f41b721751f582d69155ca374463c47"
+    }
+  },
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2022-06-15T19:04:16.901Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {},
+    "notice": "유저로부터 서비스 활성화를 제공 받고 그에 따른 토큰 보상을 지급한다. 그렇다면 보상은 뭘 하면 받을 수 있을까. 방을 제공해준다? 아니다, 맵을 제공해준다. 전체적인 맵 그래픽 이미지와 그 맵에 부합하는 콜라이더(이동방지 마스크) 두 장의 이미지 파일을 전달 받고, ...뭐, 또 스크립트와 NPC 등도 받을 수 있겠고... 즉 마치 SecondLife, VRChat 내의 유저 메이드 커스텀 맵과도 같은 하나의 창작 맵을 제공 받으면 그에 따라 ERC20 토큰을 보상으로 주면 좋을 것 같다. 유저가 방을 생성할 시에 창작 맵들 중 하나를 마음대로 선택할 수 있게 한다. 능력자들의 예술적인 작품들도 분명 나올 것이고 보다 유저 풀이 활성화되며 입소문도 퍼지게 될 것이다. (중앙화된 서비스 한계를 극복할 수 있음)"
+  }
+}

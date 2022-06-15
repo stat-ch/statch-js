@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "truffle:deploy": "truffle deploy --reset",
+    "deploy": "cross-env NODE_ENV=production npm run truffle:deploy -- --network klaytn",
+    "deploy:test": "cross-env NODE_ENV=test npm run truffle:deploy -- --network klaytn",
+    "deploy:local": "cross-env NODE_ENV=test npm run truffle:deploy -- --network local"
+  },
+  "dependencies": {
+    "@klaytn/contracts": "^1.0.2"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.9",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "modern-v": "^0.1.8"
+  }
+}
