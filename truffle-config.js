@@ -1,15 +1,13 @@
-// Get the configuration
+// for typescript
+require("ts-node").register({
+  files: true,
+});
 
+// Get the configuration
 const { getMode, getEnvs } = require("modern-v");
 
-const MODE = getMode({
-  list: ["test", "production"],
-  strict: true,
-});
-
-require("dotenv").config({
-  path: ".env." + MODE,
-});
+// .env.dev / .env.prod
+require("dotenv").config({ path: ".env." + getMode() });
 
 const ENVS = getEnvs({
   URL: "",
