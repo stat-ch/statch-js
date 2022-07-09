@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.5.16;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.4;
 
 // ERC-20 토큰 정해진 유통량 최초 발행
 // 40%는 서버지갑에 전송, 운영비로 사용
@@ -31,9 +31,11 @@ pragma solidity 0.5.16;
 
  */
 
-contract Test {
-    string name;
-    constructor(string memory _name) public {
-        name = _name;
+contract StatchUsers {
+
+    constructor() {}
+
+    function greet() external pure returns (string memory) {
+        return "asdasd";
     }
 }
